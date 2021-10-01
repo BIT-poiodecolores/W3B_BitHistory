@@ -1,0 +1,89 @@
+.logohistory {
+    width: 180px;
+    height: 40px;
+}
+
+.navbar  {
+    background-color: #fff;
+    /* Agregar sombra */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+    min-height: 100px;
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover{
+    color: crimson;
+}
+
+
+.iconodetails {
+    width: 75px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.nav-user {
+    padding-top: 8px;
+    color: crimson;
+}
+
+
+.carousel-item img{
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+}
+
+/* Estilos de seccion 2 */
+.history {
+    font-size: 18px;
+}
+
+
+/* Seccion imagenes */
+
+.contenedor {
+    background:black;
+}
+
+.imagenes-container{
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 10px;
+
+}
+
+.imagenes-container img {
+/* Prefijos -webkit- */
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    width: 80%;
+    height:600px ;
+    cursor: pointer;
+
+}
+
+.imagenes-container:hover img{
+    /* nos realiza una animación de escala (es un efecto que permite a un elemento cambiar de forma, tamaño o posicion) */
+-moz-transform: scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+
+}
+
+.imagenes-details {
+position: absolute;
+bottom: 25px;
+left: 28px;
+/* Propiedad de capas */
+z-index: 100;
+color: #ffffff;
+background-color: #000000c9;
+}
