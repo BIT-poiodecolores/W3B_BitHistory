@@ -56,22 +56,22 @@
 
           <div class="login d-flex flex-row justify-content-center mt-4">
             <div class="iconodetails">
-              <a class="nav-link" href="#">
-                <img width="35px" src="icons/user.png" alt="user" />
+              <a id="login1" class="nav-link" href="#">
+                <img onmouseover="show()" onmouseout="show()"   width="35px" src="icons/user.png" alt="user" />
               </a>
-              <p>login</p>
+              <p id="textLogin"  >login</p>
             </div>
 
             <div class="iconodetails">
-              <a class="nav-link" href="#">
-                <img width="35px" src="icons/salir.svg" alt="logout" />
+              <a id="login2" class="nav-link" href="#">
+                <img onmouseover="show2()" onmouseout="show2()" width="35px" src="icons/salir.svg" alt="logout" />
               </a>
 
-              <p>Logout</p>
+              <p id="textLogout">Logout</p>
             </div>
 
             <div class="iconodetails">
-              <p class="nav-user">Valen</p>
+              <p id="loginUser" class="nav-user">    </p>
             </div>
           </div>
         </div>
@@ -220,6 +220,11 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+
+   <script src="js/script.js"></script>
+
+
+
     <!-- <script src="descargaBootstrap/js/bootstrap.min.js"></script> -->
   </body>
 </html>
